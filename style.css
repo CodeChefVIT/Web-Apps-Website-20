@@ -11,7 +11,8 @@ a.link:hover{
     color: wheat;
 }
 .first{
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     background-image: url("10571.png");
     height: 700px;
     width: 100%;
@@ -72,4 +73,8 @@ p{
 }
 .bg-dark{
     background-color: black;
+}
+.bimg{
+    width: 100vw;
+    height: auto;
 }
