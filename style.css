@@ -11,9 +11,11 @@ a.link:hover{
     color: wheat;
 }
 .first{
-    padding-top: 10px;
-    padding-bottom: 50px;
+    
     background-image: url("10571.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     height: auto;
     width: auto;
     display: flex;
@@ -71,11 +73,11 @@ p{
     font-size: large;
 }
 .navbar{
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     padding-bottom: 20px;
 }
 .bg-dark{
-    background-color: black;
+    background-color: rgb(24, 24, 24);
 }
 .bimg{
     width: 100vw;
@@ -87,4 +89,43 @@ p{
 .myrow2{
     font-size: medium;
     padding-bottom: 100px;
+}
+.black{
+    background-color: rgb(24, 24, 24);
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+.space{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col-s-2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.third{
+    background-color: rgb(49, 49, 49);
+    
+}
+.fourth{
+    background-color: rgba(2, 19, 43, 0.9);
+}
+.footer{
+    background-color: rgb(24, 24, 24);
+}
+.box{
+    background-color: rgb(4, 43, 80);
+    border: rgb(14, 70, 153) solid;
+    padding-bottom: 50px;
+}
+.register{
+    align-content: center;
+    justify-content: center;
+    border: rgb(41, 74, 124) solid;
+    background-color: rgb(4, 43, 80);
+}
+.register:hover{
+    background-color: rgb(4, 43, 80);
+    border-color: rgb(32, 99, 199);
 }
