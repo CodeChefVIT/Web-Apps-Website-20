@@ -1,5 +1,19 @@
+.col-md-1{
+    color: white;
+}
 .col-md-2{
     color: white;
+}
+a{
+    text-decoration: none;
+}
+.navlink{
+    color: white;
+    text-decoration: none
+}
+a.navlink:hover{
+    color: turquoise;
+    text-decoration: none
 }
 .right{
     color: white;
@@ -18,7 +32,6 @@ a.link:hover{
     background-repeat: no-repeat;
     height: auto;
     width: auto;
-    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -105,27 +118,28 @@ p{
     color: white;
 }
 .third{
-    background-color: rgb(49, 49, 49);
+    background-color: darkorange;
     
 }
 .fourth{
-    background-color: rgba(2, 19, 43, 0.9);
+    background-color: purple;
 }
 .footer{
     background-color: rgb(24, 24, 24);
 }
 .box{
-    background-color: rgb(4, 43, 80);
-    border: rgb(14, 70, 153) solid;
+    
     padding-bottom: 50px;
 }
 .register{
+    padding-left: 20px;
+    padding-right: 20px;
     align-content: center;
     justify-content: center;
-    border: rgb(41, 74, 124) solid;
-    background-color: rgb(4, 43, 80);
+    border: white solid;
+    background-color: purple;
 }
 .register:hover{
-    background-color: rgb(4, 43, 80);
-    border-color: rgb(32, 99, 199);
+    border-color: yellow;
+    color: yellow;
 }
