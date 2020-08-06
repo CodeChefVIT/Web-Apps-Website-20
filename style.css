@@ -2,13 +2,13 @@
     color: white;
 }
 .col-md-2{
-    color: rgb(31, 31, 31);
+    color: white;
 }
 a{
     text-decoration: none;
 }
 .navlink{
-    color: black;
+    color: white;
     text-decoration: none
 }
 a.navlink:hover{
@@ -19,14 +19,14 @@ a.navlink:hover{
     color: white;
 }
 .link{
-    color: black;
+    color: white;
 }
 a.link:hover{
     color: wheat;
 }
 .first{
     
-    background-color: rgb(233, 233, 233);
+    background-image: url("bg1-01.png");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -86,11 +86,11 @@ p{
     font-size: large;
 }
 .navbar{
-    background-color: rgb(24, 24, 24);
+    background-color: white;
     padding-bottom: 20px;
 }
 .bg-dark{
-    background-color: rgb(24, 24, 24);
+    background-color: white;
 }
 .bimg{
     width: 100vw;
@@ -104,7 +104,7 @@ p{
     padding-bottom: 100px;
 }
 .second{
-    background-color: rgb(233, 233, 233);
+    background-color: #1a1a1a;
     padding-top: 10px;
     padding-bottom: 130px;
 }
@@ -118,14 +118,14 @@ p{
     color: white;
 }
 .third{
-    background-color: rgb(233, 233, 233);
+    background-color: #1a1a1a;
     
 }
 .fourth{
-    background-color: rgb(233, 233, 233);
+    background-color: #1a1a1a;
 }
 .foot{
-    background-color: rgb(206, 206, 206);
+    background-color: #333333;
 }
 .box{
     padding-top: 50px;
@@ -133,17 +133,17 @@ p{
 }
 .register{
     padding-left: 20px;
-    color: black;
+    color: white;
     font-size: 2rem;
     padding-right: 20px;
     align-content: center;
     justify-content: center;
-    border: black solid;
-    background-color: rgb(233, 233, 233);
+    border: white solid;
+    background-color: transparent;
 }
 .register:hover{
-    border-color: skyblue;
-    color: skyblue;
+    border-color: teal;
+    color: teal;
     
 }
 .imghov{
@@ -153,4 +153,7 @@ p{
 z-index: 1;
 transform: scale(1.05);
 box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+.col-md-5{
+    color: white;
 }
