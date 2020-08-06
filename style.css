@@ -1,3 +1,15 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.all{
+    overflow-x: hidden;
+}
+
 .col-md-1{
     color: white;
 }
@@ -25,7 +37,6 @@ a.link:hover{
     color: wheat;
 }
 .first{
-    
     background-image: url("bg1-01-min.png");
     background-size: cover;
     background-position: 50% 50%;
@@ -68,15 +79,6 @@ a.contact{
     color: skyblue;
     border-color: skyblue;
 }
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 p{
     text-align: center;
     align-self: center;
@@ -106,7 +108,7 @@ p{
 .second{
     background-color: #1a1a1a;
     padding-top: 10px;
-    padding-bottom: 130px;
+    padding-bottom: 80px;
 }
 .space{
     padding-top: 20px;
