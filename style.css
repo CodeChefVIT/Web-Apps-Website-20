@@ -16,6 +16,9 @@ html,body
 .col-md-2{
     color: white;
 }
+.col-md-6{
+    color: white;
+}
 a{
     text-decoration: none;
 }
@@ -37,10 +40,12 @@ a.link:hover{
     color: wheat;
 }
 .first{
-    background-image: url("bg1-01-min.png");
+    background-image: url("bg-min-min.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 100px;
     height: auto;
     width: auto;
     text-align: center;
@@ -106,9 +111,9 @@ p{
     padding-bottom: 100px;
 }
 .second{
-    background-color: #1a1a1a;
-    padding-top: 10px;
+    background-color: #121212;
     padding-bottom: 80px;
+    padding-top: 50px;
 }
 .space{
     padding-top: 20px;
@@ -130,11 +135,11 @@ p{
     background-color: #333333;
 }
 .box{
-    padding-top: 50px;
     padding-bottom: 50px;
 }
-.register{
+.reg{
     padding-left: 20px;
+    border-radius: 15px;
     color: white;
     font-size: 2rem;
     padding-right: 20px;
@@ -143,9 +148,9 @@ p{
     border: white solid;
     background-color: transparent;
 }
-.register:hover{
-    border-color: teal;
-    color: teal;
+.reg:hover{
+    border-color: lightseagreen;
+    color: lightseagreen;
     
 }
 .imghov{
@@ -157,5 +162,13 @@ transform: scale(1.05);
 box-shadow: 0 25px 40px rgba(0,0,0,.5);
 }
 .col-md-5{
+    color: white;
+}
+.seconda{
+    background-color: #121212;
+    padding-top: 80px;
+}
+.navbar{
+    background-color: rgba(0,0,0,.6);
     color: white;
 }
