@@ -140,12 +140,12 @@ p{
 .reg{
     padding-left: 20px;
     border-radius: 15px;
-    color: white;
+    color: blueviolet;
     font-size: 2rem;
     padding-right: 20px;
     align-content: center;
     justify-content: center;
-    border: white solid;
+    border: blueviolet solid;
     background-color: transparent;
 }
 .reg:hover{
