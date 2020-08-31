@@ -44,8 +44,8 @@ a.link:hover{
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 120px;
     height: auto;
     width: auto;
     text-align: center;
@@ -206,4 +206,9 @@ text-decoration: none;
 .icon{
     color: transparent;
     text-decoration: none;
+}
+.citem{
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 2rem;
 }
