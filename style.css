@@ -207,3 +207,11 @@ text-decoration: none;
     color: transparent;
     text-decoration: none;
 }
+.citem{
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 2rem;
+}
+.count{
+    background-color: rgba(27, 26, 26,0.75);
+}
