@@ -207,8 +207,12 @@ text-decoration: none;
     color: transparent;
     text-decoration: none;
 }
+.count{
+    border: whitesmoke solid;
+}
 .citem{
     color: whitesmoke;
     padding: 10px;
     font-size: 2rem;
+
 }
