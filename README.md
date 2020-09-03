@@ -4,7 +4,7 @@
 # Building Functional WebApps Website
 
 > <Subtitle>
-> Official Gravita's 2020 website for the CodeChef-VIT's workshop on building functional webapps. <a href="https://buildwebapps.netlify.app/" target="_blank" alt="Website link"></a>
+> Official Gravita's 2020 website for the CodeChef-VIT's workshop on building functional webapps. <a href="https://buildwebapps.netlify.app/" target="_blank" alt="Website link">Visit Website</a>
 
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
