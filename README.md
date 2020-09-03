@@ -22,7 +22,7 @@
 
 
 ## Screenshots
-<img src="https://github.com/akshatvg/common-entry-test/raw/master/static/img/header.png" alt="Project Screenshots">
+<img src="https://ibb.co/f9HvS5F" alt="Project Screenshots">
 
 ## Instructions to run
 
