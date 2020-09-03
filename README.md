@@ -4,7 +4,7 @@
 # Building Functional WebApps Website
 
 > <Subtitle>
-> Official website for the CodeChef-VIT's workshop on building functional webapps.
+> Official Gravita's 2020 website for the CodeChef-VIT's workshop on building functional webapps. <a href="https://buildwebapps.netlify.app/" target="_blank" alt="Website link"></a>
 
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
@@ -24,14 +24,6 @@
 ## Screenshots
 <img src="https://i.ibb.co/VxTmNZ9/bfw.png" alt="Project Screenshots">
 
-## Instructions to run
-
-```
-$ git clone https://github.com/CodeChefVIT/<Project>
-$ cd <Project>
-$ pip3 install -r requirements.txt
-$ python3 manage.py runserver
-```
 
 ## Contributors
 - <a href="https://github.com/lio2011">Shouryan Sharma</a>
