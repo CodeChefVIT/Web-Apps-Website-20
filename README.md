@@ -33,8 +33,10 @@ $ pip3 install -r requirements.txt
 $ python3 manage.py runserver
 ```
 
-## Contributor
+## Contributors
 - <a href="https://github.com/lio2011">Contributor Name</a>
+- <a href="https://github.com/akshatvg">Contributor Name</a>
+
 
 ## License
 
