@@ -22,7 +22,7 @@
 
 
 ## Screenshots
-<img src="https://ibb.co/f9HvS5F" alt="Project Screenshots">
+<img src="https://i.ibb.co/VxTmNZ9/bfw.png" alt="Project Screenshots">
 
 ## Instructions to run
 
