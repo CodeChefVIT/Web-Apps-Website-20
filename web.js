@@ -1,6 +1,6 @@
 function countdown(){
     var now = new Date();
-    var eventDate = new Date(2020, 8, 17);
+    var eventDate = new Date(2020, 10, 54);
     var currentTime = now.getTime();
     var eventTime = eventDate.getTime();
     var remTime = eventTime - currentTime;
