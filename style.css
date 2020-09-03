@@ -6,6 +6,9 @@ html,body
     padding: 0px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    font-family: Montserrat;
+}
 .all{
     overflow-x: hidden;
 }
@@ -40,7 +43,7 @@ a.link:hover{
     color: wheat;
 }
 .first{
-    background-image: url("bg-min-min.jpg");
+    background-image: url("images/bg-min-min.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -190,6 +193,10 @@ box-shadow: 0 25px 40px rgba(0,0,0,.5);
 .col-md-5{
     color: white;
 }
+.bsec{
+    background-color: #1a1a1a;
+    color: azure;
+}
 .seconda{
     background-color: #121212;
     padding-top: 80px;
@@ -216,3 +223,35 @@ text-decoration: none;
     font-size: 2rem;
 
 }
+.cont{
+    position: relative;
+}
+.cont h1{
+    position: absolute;
+    justify-items: center;
+    align-content: center;
+    transform: translate(-50%,-50%);
+    color: transparent;
+}
+.cont h1:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: royalblue;
+
+}
+.cont h1:nth-child(2){
+    color: royalblue;
+    animation: animate 2s ease-in-out;
+}
+@keyframes animate{
+    0%,100%{
+        clip-path: polygon(0 46%, 19% 45%, 35% 50%, 47% 56%, 63% 58%, 85% 52%, 100% 46%, 100% 100%, 0 100%);
+    }
+    50%{
+        clip-path: polygon(0 60%, 21% 63%, 40% 64%, 56% 62%, 72% 55%, 85% 49%, 100% 46%, 100% 100%, 0 100%);
+    }
+}
+
+a:hover { 
+    text-decoration: none;
+     
+} 
