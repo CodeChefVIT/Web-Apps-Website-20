@@ -34,8 +34,8 @@ $ python3 manage.py runserver
 ```
 
 ## Contributors
-- <a href="https://github.com/lio2011">Contributor Name</a>
-- <a href="https://github.com/akshatvg">Contributor Name</a>
+- <a href="https://github.com/lio2011">Shouryan Sharma</a>
+- <a href="https://github.com/akshatvg">Akshat Gupta</a>
 
 
 ## License
