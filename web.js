@@ -1,24 +1,19 @@
-function countdown(){
-    var now = new Date();
-    var eventDate = new Date(2020, 10, 54);
-    var currentTime = now.getTime();
-    var eventTime = eventDate.getTime();
-    var remTime = eventTime - currentTime;
-    var s = Math.floor(remTime / 1000);
-    var m = Math.floor(s/60);
-    var h = Math.floor(m/60);
-    var d = Math.floor(h/60);
-    
-    h %= 24;
-    m %= 60;
-    s %= 60;
-    h = (h < 10) ? "0" + h : h;
-    m = (m < 10) ? "0" + m : m;
-    s = (s < 10) ? "0" + s : s;
-    document.getElementById("days").innerText = d;
-    document.getElementById("hours").innerText = h;
-    document.getElementById("minutes").innerText = m;
-    document.getElementById("seconds").innerText = s;
-    setTimeout(countdown,1000)
-}
-countdown();
+var count = new Date("Oct 17,2020 00:18:00").getTime();
+  var x = setInterval(function() {
+    var now = new Date().getTime();
+    var d = count - now;
+
+    var days = Math.floor(d/(1000*60*60*24));
+    var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+    var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+    var seconds = Math.floor((d%(1000*60))/1000);
+
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+
+    if(d <= 0){
+      clearInterval(x);
+    }
+  },1000);
