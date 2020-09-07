@@ -1,4 +1,4 @@
-var count = new Date("Oct 17,2020 00:18:00").getTime();
+var count = new Date("Oct 17,2020 18:00:00").getTime();
   var x = setInterval(function() {
     var now = new Date().getTime();
     var d = count - now;
