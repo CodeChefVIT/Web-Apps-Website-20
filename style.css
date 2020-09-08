@@ -303,3 +303,20 @@ a:hover {
         clip-path: polygon(0 36%, 24% 48%, 49% 55%, 70% 53%, 87% 48%, 100% 44%, 100% 100%, 0% 100%);
     }
 }
+.bsecond{
+    background-color: #121212;
+}
+.white{
+    color: whitesmoke;
+}
+.speaker{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card{
+    padding: 0px;
+    box-shadow: white;
+}
+.tr{
+    background-color: transparent;
+}
