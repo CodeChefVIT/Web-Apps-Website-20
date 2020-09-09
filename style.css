@@ -333,7 +333,7 @@ border-color: darkgray;
     transition: 2s;
 }
 .card:hover .card-body{
-    background: rgb(49, 177, 228);
+    background: linear-gradient(-45deg,rgb(58, 112, 228) 50%,rgb(3, 163, 226) 100%);
 }
 .card .card-img-top{
     filter: blur(20px);
