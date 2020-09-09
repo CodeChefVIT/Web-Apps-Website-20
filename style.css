@@ -329,3 +329,18 @@ a:hover {
 background-color: darkgray;
 border-color: darkgray;
 }
+.card .card-body{
+    transition: 2s;
+}
+.card:hover .card-body{
+    background: rgb(49, 177, 228);
+}
+.card .card-img-top{
+    filter: blur(20px);
+    filter: brightness(50%);
+    transition: 2s;
+}
+.card:hover .card-img-top{
+    filter: blur(0px);
+    filter: brightness(100%);
+}
