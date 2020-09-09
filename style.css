@@ -30,7 +30,8 @@ a{
 }
 .navlink{
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    transition: 1s;
 }
 a.navlink:hover{
     color: gray ;
@@ -319,4 +320,12 @@ a:hover {
 }
 .tr{
     background-color: transparent;
+}
+.regist{
+    color: black;padding: 2px;padding-left: 5px;padding-right: 5px; border: whitesmoke solid;border-radius: 4px;background: whitesmoke;
+    transition: 1s;
+}
+.regist:hover{
+background-color: darkgray;
+border-color: darkgray;
 }
