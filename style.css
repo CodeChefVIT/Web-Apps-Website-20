@@ -30,7 +30,8 @@ a{
 }
 .navlink{
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    transition: 1s;
 }
 a.navlink:hover{
     color: gray ;
@@ -319,4 +320,27 @@ a:hover {
 }
 .tr{
     background-color: transparent;
+}
+.regist{
+    color: black;padding: 2px;padding-left: 5px;padding-right: 5px; border: whitesmoke solid;border-radius: 4px;background: whitesmoke;
+    transition: 1s;
+}
+.regist:hover{
+background-color: darkgray;
+border-color: darkgray;
+}
+.card .card-body{
+    transition: 2s;
+}
+.card:hover .card-body{
+    background: linear-gradient(-45deg,rgb(58, 112, 228) 50%,rgb(3, 163, 226) 100%);
+}
+.card .card-img-top{
+    filter: blur(20px);
+    filter: brightness(50%);
+    transition: 2s;
+}
+.card:hover .card-img-top{
+    filter: blur(0px);
+    filter: brightness(100%);
 }
